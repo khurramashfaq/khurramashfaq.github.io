@@ -1,0 +1,30 @@
+[
+
+    {
+    "type": "journal",
+    "year": 2026,
+    "title": "Robust Shape from Focus via Multiscale Directional Dilated Laplacian and Recurrent Network",
+    "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
+    "venue": "International Journal of Computer Vision (IJCV)",
+    "note": "Springer Nature",
+    "paper": "https://arxiv.org/abs/2512.10498",
+    "project": "",
+    "code": "https://github.com/khurramashfaq/ddl-gru-sff",
+    "image": "assets/paper_images/ddl_gru.jpg",
+    "bibtex": ""
+  },
+  {
+    "type": "journal",
+    "year": 2026,
+    "title": "A Dual-Stage Focus Measure for Vector-Valued Images in Shape from Focus",
+    "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
+    "venue": "Pattern Recognition (PR)",
+    "note": "Elsevier",
+    "paper": "https://doi.org/10.1016/j.patcog.2025.112112",
+    "project": "",
+    "code": "https://github.com/khurramashfaq/dual-stage-fm-sff",
+    "image": "assets/paper_images/dual_stage_fm.jpg",
+    "bibtex": ""
+  }
+
+]

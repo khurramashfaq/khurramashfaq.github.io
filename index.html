@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Khurram Ashfaq</title>
+
+  <meta property="og:title" content="Khurram Ashfaq" />
+  <meta property="og:description" content="PhD student @ KoreaTech" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="#">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Khurram Ashfaq</span>
+      </a>
+
+      <nav class="topnav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <!--<a href="misc.html">Miscellaneous</a>-->
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn" aria-label="Toggle theme"><i id="themeIcon" class="fa-solid fa-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <img class="avatar" src="assets/khurram.jpg" alt="Portrait" onerror="this.style.display='none'" />
+        <h1 class="name">Khurram Ashfaq</h1>
+
+        <div class="links">
+          <a href="mailto:khurram@koreatech.ac.kr"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+          <a href="https://scholar.google.com/citations?user=fj9gsBUAAAAJ" target="_blank" rel="noreferrer"><i class="fa-solid fa-graduation-cap"></i><span>Google Scholar</span></a>
+          <a href="https://github.com/khurramashfaq" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+          <a href="https://www.linkedin.com/in/khurramashfaq/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="info-block">
+          <h2 class="section-title"><i class="fa-solid fa-user"></i> About</h2>
+
+          <p class="about-text">
+          I am a PhD student at
+          <a href="https://www.koreatech.ac.kr" target="_blank" rel="noreferrer">
+          Korea University of Technology and Education (KoreaTech)
+          </a>
+          working in computer vision and deep learning under the supervision of
+          <a href="https://scholar.google.com/citations?user=7entd3IAAAAJ" target="_blank" rel="noreferrer">
+          Prof. Muhammad Tariq Mahmood
+          </a>.
+          My research focuses on depth estimation including depth from focus, stereo matching and monocular depth estimation with an emphasis on geometric principles and robust loss functions for reliable predictions. I am also interested in classical computer vision and traditional image processing methods.
+          </p>
+
+
+        </div>
+
+        <div class="info-block">
+          <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+
+          <div class="edu-list">
+            <div class="edu-row">
+              <div class="edu-degree">PhD Computer Vision</div>
+              <div class="edu-place">KoreaTech, South Korea</div>
+              <div class="edu-date">2024 to present</div>
+            </div>
+
+            <div class="edu-row">
+              <div class="edu-degree">MS Computer Science</div>
+              <div class="edu-place">KoreaTech, South Korea</div>
+              <div class="edu-date">2022 to 2024</div>
+            </div>
+
+            <div class="edu-row">
+              <div class="edu-degree">BS Electrical Engineering</div>
+              <div class="edu-place">GIK Institute, Pakistan</div>
+              <div class="edu-date">2016 to 2020</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-newspaper"></i> News</h2>
+        <div id="newsList" class="news"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title"><i class="fa-solid fa-book-open"></i> Selected Publications</h2>
+          <div class="filters">
+            <input id="pubSearch" class="input" placeholder="Search title, venue, year" />
+            <select id="pubFilter" class="select">
+              <option value="all">All</option>
+              <option value="journal">Journal</option>
+              <option value="conference">Conference</option>
+              <option value="preprint">Preprint</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="pubList" class="pub-list" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Khurram Ashfaq</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
