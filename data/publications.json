@@ -1,13 +1,41 @@
 [
-
     {
+    "type": "journal",
+    "year": 2026,
+    "title": "Depth from Focus Using Directional Spherical Difference Filter and Vector to Scalar Fusion",
+    "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
+    "venue": "Journal of Visual Communication and Image Representation (JVCI)",
+    "note": "Elsevier",
+    "paper": "https://doi.org/10.1016/j.jvcir.2026.104794",
+    "arxiv": "",
+    "project": "",
+    "code": "",
+    "image": "assets/paper_images/vsf.jpg",
+    "bibtex": ""
+  },
+    {
+    "type": "conference",
+    "year": 2026,
+    "title": "Towards Minimal Focal Stack in Shape from Focus",
+    "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
+    "venue": "CVPR 2026 Workshop 3DMV",
+    "note": "Third Workshop for Learning 3D with Multi View Supervision",
+    "paper": "",
+    "arxiv": "https://arxiv.org/pdf/2604.01603v1",
+    "project": "",
+    "code": "",
+    "image":  "assets/paper_images/min_focalstack.jpg",
+    "bibtex": ""
+  },
+  {
     "type": "journal",
     "year": 2026,
     "title": "Robust Shape from Focus via Multiscale Directional Dilated Laplacian and Recurrent Network",
     "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
     "venue": "International Journal of Computer Vision (IJCV)",
     "note": "Springer Nature",
-    "paper": "https://arxiv.org/abs/2512.10498",
+    "paper": "https://link.springer.com/article/10.1007/s11263-025-02596-z",
+    "arxiv": "https://arxiv.org/pdf/2512.10498",
     "project": "",
     "code": "https://github.com/khurramashfaq/ddl-gru-sff",
     "image": "assets/paper_images/ddl_gru.jpg",
@@ -21,10 +49,10 @@
     "venue": "Pattern Recognition (PR)",
     "note": "Elsevier",
     "paper": "https://doi.org/10.1016/j.patcog.2025.112112",
+    "arxiv": "",
     "project": "",
     "code": "https://github.com/khurramashfaq/dual-stage-fm-sff",
     "image": "assets/paper_images/dual_stage_fm.jpg",
     "bibtex": ""
   }
-
 ]

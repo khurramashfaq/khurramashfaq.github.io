@@ -62,6 +62,7 @@ function renderPublications(items) {
     const links = el("div", "pub-links");
     const linkDefs = [
       ["Paper", p.paper],
+      ["arXiv", p.arxiv],
       ["Code", p.code],
       ["Project", p.project],
       ["BibTeX", p.bibtex],
