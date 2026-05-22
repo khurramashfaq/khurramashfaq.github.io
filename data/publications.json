@@ -1,4 +1,18 @@
 [
+  {
+    "type": "journal",
+    "year": 2026,
+    "title": "Perceptual Focus Volume for Shape from Focus",
+    "authors": "Khurram Ashfaq, Muhammad Tariq Mahmood",
+    "venue": "Computers and Electrical Engineering (CEE)",
+    "note": "Elsevier",
+    "paper": "https://doi.org/10.1016/j.compeleceng.2026.111209",
+    "arxiv": "",
+    "project": "",
+    "code": "",
+    "image": "assets/paper_images/perceptual.jpg",
+    "bibtex": ""
+  },
     {
     "type": "journal",
     "year": 2026,
